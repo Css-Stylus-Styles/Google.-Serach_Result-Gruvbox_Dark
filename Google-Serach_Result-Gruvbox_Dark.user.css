@@ -1,7 +1,7 @@
-        /* ==UserStyle==
+            /* ==UserStyle==
 @name           Google Search Light Gruvbox search resuls  pges ;
 @namespace      github.com/bilalazh/gogole search 
-@version        1.0.3
+@version        1.0.4
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -798,8 +798,16 @@ div.V3FYCf{
 	
 	/*Descriptors for the side bar websites*/
             .z8gr9e {
-                color: #215F34 !important ; 
+                color: #3b6849 !important ; 
+				font-family: "Bricolage Grotesque" !important ; 
             }
+	.FoJoyf.w8qArf {
+		color :#3c3836 !important ; 
+	}
+	
+	
+	
+	
 	
 	/*View more websites*/
 	a.EbH0bb {
@@ -1104,8 +1112,8 @@ div.V3FYCf{
 	/*need to set font*/
 		/*LLMs answer text color*/
 		.PZPZlf, .vmod {
-    color: #236036 !important;
-			font-family: "Chivo" !important ; 
+    color: #3b6849 !important;
+			font-family: "Bricolage Grotesque" !important ; 
 }
 	/*LLM answer background highlight*/
 	.QVRyCf {
@@ -1782,8 +1790,9 @@ ask a follow up placeholder && learn more color*/
 	
 	/*More links under the main link*/
     a.fl{
-        color:#FFD29C !important;
-        background-color:#5C5911 !important;
+        color:#5c5911 !important;
+        background-color:#ffd29c !important;
+		border: solid 1px #bdae93 !important ; 
         padding: 0px 8px 0px 9px !important ; 
         border-radius: 8px !important  ; 
         
@@ -1812,15 +1821,22 @@ ask a follow up placeholder && learn more color*/
 	/*Another button */
 	.niO4u::before {
  
-			background-color:#FBF1C7 !important;
-		border: solid #98971A 2px !important ;
-		border-radius: 34px !important ; 
+			background-color:#7c6f6400 !important;
+		border-radius: 24px !important ; 
 }
 	
 	
-	
-	
-	
+	.fCrZyc .niO4u, .fCrZyc .kHtcsd {
+	color : #3c3836 !important ; 
+		background: #f2e5bc !important ; 
+		border: solid 2px #665c54 !important ; 
+}
+	/*Website direct link side bar text font changte */
+	.clOx1e.sjVJQd.mh3zcf  , .CtCigf, .ym0v8b {
+  color: #282828 !important; /* Replace with your desired color */
+		font-family: "Jetbrains Mono Variable" , "Jetbrains Mono" !important ; 
+		font-weight: 700 !important  ; 
+}
 	
 	
 	
@@ -2765,27 +2781,26 @@ ask a follow up placeholder && learn more color*/
             .YmvwI {
                 display: flex;
                 height: 20px;
-                color: #928374;
-                font-family: Google Sans,arial,sans-serif-medium,sans-serif;
-                width: fit-content;
+                color: #665c54 !important;
+                font-family: "Bricolage Grotesque" !important ; 
                 padding-bottom: 10px;
                 align-items: center;
                 justify-content: center;
                 padding-left: 10px;
                 padding-right: 10px;
-                font-size: 14px
+                font-size: 14px !important ; 
             }
 			/*All images  VIdeos News shoopping selected */
             [selected].YmvwI {
-                color: #fe8019 !important;
-                border-bottom: 3px solid #fb4934 !important;
+                color: #79740e !important;
+                border-bottom: 5px solid #fb4934 !important;
                 padding-bottom: 8px;
             }
 
 		
 	/*All news image shopping Under line*/
 	.KLEmSd {
-    border-bottom: 1px solid #3c3836 !important;
+    border-bottom: 3px solid #d5c4a1 !important;
 }
 	
 	
