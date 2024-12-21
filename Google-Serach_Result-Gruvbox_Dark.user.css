@@ -1,7 +1,7 @@
-    /* ==UserStyle==
+        /* ==UserStyle==
 @name           Google Search Light Gruvbox search resuls  pges ;
 @namespace      github.com/bilalazh/gogole search 
-@version        1.0.2
+@version        1.0.3
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -126,6 +126,26 @@
 	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
 
 
+	
+	
+	
+	
+	/* jetbrains-mono-latin-wght-normal */
+@font-face {
+  font-family: 'JetBrains Mono Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+	
+	
+	
+	
+	
+	
+	
 
 
 
@@ -466,7 +486,7 @@
 	
 	/*Body background styles*/
 	/*background of everything */
-             body , html , .A6K0A , .eKjLze  , .yuRUbf , div#appbar.appbar  , div.sfbg , .VwiC3b.yXK7lf.p4wth.r025kc.hJNv6b.Hdw6tb {
+             body , html , .A6K0A , .eKjLze  , .yuRUbf , div#appbar.appbar  , div.sfbg , .VwiC3b.yXK7lf.p4wth.r025kc.hJNv6b.Hdw6tb  , .Wt5Tfe , .ULSxyf > .MjjYud > div , .rNSxBe , .HG5ZQb {
                 margin: 0;
                 background: #f2e5bc !important;
 				/*color of the Showing results for inside the body elemeent */
@@ -478,7 +498,7 @@
 
 	.VwiC3b.yXK7lf.p4wth.r025kc.hJNv6b.Hdw6tb {
 		color : #665c54 !important ; 
-    font-family: "Mono" !important;
+    font-family: "Jetbrains Mono Variable"  , "Jetbrains "!important;
 		font-weight: 800 !important  ; 
 	}
 	
@@ -498,9 +518,9 @@
 	
 	/*Link of teh suggested website -> Cite of teh website  */
 	.byrV5b cite {
-		color : #fb4934 !important ; 
-		font-size: 0.75rem !important ;  
-    font-family: "Fantasque Sans Mono Bold" !important ;
+		color : #665c54 !important ; 
+		font-size: 0.7rem !important ;  
+    font-family: "Jetbrains Mono Variable" , "Jetbrains Mono" !important ;
 		font-weight: 800 !important ; 
 	}
 	
@@ -1828,7 +1848,7 @@ ask a follow up placeholder && learn more color*/
 	/*related questions*/
                                 .CSkcDe,.related-question-pair div.iDjcJe {
                                     color: #282828 !important;
-									font-family: "Mono" !important ; 
+									font-family: "Jetbrains Mono Variable" , "Jetbrains Mono"  !important ; 
                                     font-size: 14px;
 									font-weight: 700  !important;
                                     font-weight: 400;
@@ -6157,8 +6177,8 @@ hover*/
 
 	/*People aslo ask questions answer*/
                                 .cUnQKe .ILfuVd,.cUnQKe .UiGGAb.ILfuVd,.w5mTAe .ILfuVd,.W0urI .ILfuVd {
-                                    color: #282828 !important;
-                                    font-family:  chivo , Google Sans,arial,sans-serif;
+                                    color: #5c5911 !important;
+                                    font-family: "Literata Variable" !important ; 
                                     font-size: 16px;
                                     line-height: 24px
                                 }
@@ -9259,7 +9279,7 @@ hover*/
             }
 
             .fm06If .ILfuVd.NA6bn,.c2xzTb .ILfuVd.duSGDe,.c2xzTb .ILfuVd.NA6bn.c3biWd {
-                font-size: 14px;
+                font-size: 18px !important;
                 line-height: 1.58;
             }
 
@@ -10707,24 +10727,26 @@ hover*/
 	
 	/*lowest bar*/
 	/*Lower Div */
+	/*Location div is just hidden */
+	div.f6F9Be.TrMVnc.YNk70c {
+    display: none !important;
+}
 	
+	/*
 	.f6F9Be {
     background: #1d2021 !important;
     line-height: 40px;
     padding-bottom: 12px;
 }
-	/*border lowest one*/
 	.b2hzT {
     border-bottom: 1px solid #79740e;
 }
-	/*Border higher one */
 	.f6F9Be {
     background: #1d2021 !important;
     line-height: 40px;
     border-top: 1px solid #5c5911 !important;
 }
 	
-	/*LOcation */
 	.dfB0uf {
     color: #fb4934 !important;
     font-weight: bold;
@@ -10732,7 +10754,6 @@ hover*/
 	.unknown_loc {
     background: #fb4934 !important;
 }
-	/*From YOur IP address*/
 	.KwU3F {
     color: #b8bb26 !important;
 }
@@ -10743,13 +10764,12 @@ hover*/
 }
 	
 	
-	/*Country name */
 	.b0KoTc {
     color: #689d6a !important;
     padding-left: 27px;
 }
 	
-
+*/
 	
 	
 		
